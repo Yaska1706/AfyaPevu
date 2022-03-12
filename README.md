@@ -8,5 +8,7 @@ AfyaPevu reinventing patient record management with a taste of AI. AfyaPevu is p
 ## Authors
 
 [Frankline Wegulo](https://github.com/frankwegulo/) 
+
 [Nicabed Gathaba](https://github.com/abedygathaba/) 
+
 [Yasin Kinyua Murithi](https://github.com/yaska1706/) 
