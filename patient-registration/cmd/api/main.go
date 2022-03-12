@@ -5,9 +5,9 @@ import (
 	"github.com/yaska1706/AfyaPevu/patient-registration/internal/api"
 )
 
-// @Golang API REST
+// @AFYAPEVU
 // @version 1.0
-// @description API REST in Golang with Gin Framework
+// @description API REST for AFYAPEVU patient registration
 
 // @contact.name AfyaPevu
 // @contact.url
