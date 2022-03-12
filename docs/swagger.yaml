@@ -35,9 +35,9 @@ definitions:
     type: object
 info:
   contact:
-    email: antonioalfa22@gmail.com
-    name: Antonio Paya Gonzalez
-    url: http://antoniopg.tk
+    email: 
+    name: 
+    url: 
   description: API REST in Golang with Gin Framework
   license:
     name: MIT

@@ -7,7 +7,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/yaska1706/AfyaPevu/internal/pkg/config"
-	"github.com/yaska1706/AfyaPevu/internal/pkg/models/tasks"
+	"github.com/yaska1706/AfyaPevu/internal/pkg/models/patients"
 	"github.com/yaska1706/AfyaPevu/internal/pkg/models/users"
 )
 
@@ -50,7 +50,7 @@ func SetupDB() {
 func migration() {
 	DB.AutoMigrate(&users.User{})
 	DB.AutoMigrate(&users.UserRole{})
-	DB.AutoMigrate(&tasks.Task{})
+	DB.AutoMigrate(&patients.Patient{})
 }
 
 func GetDB() *gorm.DB {

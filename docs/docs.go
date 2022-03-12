@@ -19,9 +19,9 @@ var doc = `{
         "description": "{{.Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "name": "Antonio Paya Gonzalez",
-            "url": "http://antoniopg.tk",
-            "email": "antonioalfa22@gmail.com"
+            "name": "",
+            "url": "",
+            "email": ""
         },
         "license": {
             "name": "MIT",

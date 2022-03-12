@@ -3,9 +3,9 @@
     "info": {
         "description": "API REST in Golang with Gin Framework",
         "contact": {
-            "name": "Antonio Paya Gonzalez",
-            "url": "http://antoniopg.tk",
-            "email": "antonioalfa22@gmail.com"
+            "name": "",
+            "url": "",
+            "email": ""
         },
         "license": {
             "name": "MIT",
