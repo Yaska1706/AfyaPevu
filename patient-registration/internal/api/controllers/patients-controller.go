@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 	models "github.com/yaska1706/AfyaPevu/patient-registration/internal/pkg/models/patients"
 	"github.com/yaska1706/AfyaPevu/patient-registration/internal/pkg/persistence"
-	"github.com/yaska1706/AfyaPevu/patient-registration/pkg/http-err"
+	http_err "github.com/yaska1706/AfyaPevu/patient-registration/pkg/http-err"
 )
 
 type PatientRequest struct {
@@ -136,5 +136,9 @@ func SaveImage(w gin.ResponseWriter, r http.Request) (string, error) {
 	io.Copy(f, file)
 	//here we save our file to our path
 	return handler.Filename, nil
+
+}
+
+func UploadImage(c gin.Context) {
 
 }
