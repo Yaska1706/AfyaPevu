@@ -1,0 +1,18 @@
+[GIN-debug] POST   /api/login                --> github.com/yaska1706/AfyaPevu/internal/api/controllers.Login (4 handlers)
+[GIN-debug] POST   /api/login/add            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.CreateUser (4 handlers)
+[GIN-debug] GET    /docs/*any                --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/users                --> github.com/yaska1706/AfyaPevu/internal/api/controllers.GetUsers (4 handlers)
+[GIN-debug] GET    /api/users/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.GetUserById (4 handlers)
+[GIN-debug] POST   /api/users                --> github.com/yaska1706/AfyaPevu/internal/api/controllers.CreateUser (4 handlers)
+[GIN-debug] PUT    /api/users/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.UpdateUser (4 handlers)
+[GIN-debug] DELETE /api/users/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.DeleteUser (4 handlers)
+[GIN-debug] GET    /api/tasks/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.GetTaskById (4 handlers)
+[GIN-debug] GET    /api/tasks                --> github.com/yaska1706/AfyaPevu/internal/api/controllers.GetTasks (4 handlers)
+[GIN-debug] POST   /api/tasks                --> github.com/yaska1706/AfyaPevu/internal/api/controllers.CreateTask (4 handlers)
+[GIN-debug] PUT    /api/tasks/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.UpdateTask (4 handlers)
+[GIN-debug] DELETE /api/tasks/:id            --> github.com/yaska1706/AfyaPevu/internal/api/controllers.DeleteTask (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 400 with 201
+::1 - - [12/Mar/2022:13:27:51 +0300] "POST /api/login/add HTTP/1.1 201 29.543412ms " " PostmanRuntime/7.29.0" " "
