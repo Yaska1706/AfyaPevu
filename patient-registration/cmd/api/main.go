@@ -9,9 +9,9 @@ import (
 // @version 1.0
 // @description API REST in Golang with Gin Framework
 
-// @contact.name Antonio Paya Gonzalez
-// @contact.url http://antoniopg.tk
-// @contact.email antonioalfa22@gmail.com
+// @contact.name AfyaPevu
+// @contact.url
+// @contact.email
 
 // @license.name MIT
 // @license.url https://github.com/yaska1706/AfyaPevu/patient-registration/blob/master/LICENSE
