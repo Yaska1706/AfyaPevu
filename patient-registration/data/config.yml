@@ -1,0 +1,16 @@
+database:
+  driver: "postgres"
+  dbname: "afyapevu"
+  username: "development"
+  password: "develop"
+  host: "127.0.0.1"
+  port: "5432"
+  max_lifetime: 7200
+  max_open_conns: 150
+  max_idle_conns: 50
+
+server:
+  port: "8080"
+  secret: "jdnfksdmfksda"
+  #release | debug
+  mode: "debug"
